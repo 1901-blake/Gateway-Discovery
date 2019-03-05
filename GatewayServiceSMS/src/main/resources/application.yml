@@ -9,9 +9,9 @@ zuul:
       path: /users/**
       serviceId: user-service
       strip-prefix: false
-    checkins:
-      path: /checkins/**
-      serviceId: checkin-service
+    addresses:
+      path: /addresses/**
+      serviceId: user-service
       strip-prefix: false
     cohorts:
       path: /cohorts/**
@@ -19,7 +19,7 @@ zuul:
       strip-prefix: false  
     cognito:
       path: /cognito/**
-      url: https://t4o3pxu8dj.execute-api.us-west-2.amazonaws.com/dev
+      url: https://9f5q2gypw3.execute-api.us-east-1.amazonaws.com/uat
       strip-prefix: false
   
 eureka:
