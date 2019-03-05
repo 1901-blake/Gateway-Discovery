@@ -8,18 +8,22 @@ zuul:
     users: 
       path: /users/**
       serviceId: user-service
+      sensitiveHeaders: 
       strip-prefix: false
     addresses:
       path: /addresses/**
       serviceId: user-service
+      sensitiveHeaders: 
       strip-prefix: false
     cohorts:
       path: /cohorts/**
       serviceId: user-service
+      sensitiveHeaders: 
       strip-prefix: false  
     cognito:
       path: /cognito/**
       url: https://9f5q2gypw3.execute-api.us-east-1.amazonaws.com/uat
+      sensitiveHeaders: 
       strip-prefix: false
   
 eureka:
