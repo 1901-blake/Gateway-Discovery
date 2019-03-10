@@ -18,6 +18,11 @@ zuul:
       path: /cohorts/**
       serviceId: user-service
       sensitiveHeaders: 
+      strip-prefix: false
+    interview:
+      path: /interview/**
+      serviceId: interview-service
+      sensitive-headers:
       strip-prefix: false  
     cognito:
       path: /cognito/**
