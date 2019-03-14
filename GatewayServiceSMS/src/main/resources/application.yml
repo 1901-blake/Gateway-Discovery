@@ -34,11 +34,6 @@ zuul:
       url: https://9f5q2gypw3.execute-api.us-east-1.amazonaws.com/uat
       sensitiveHeaders: 
       strip-prefix: false
-    interview:
-      path: /interview/**
-      serviceId: interview-service
-      sensitiveHeaders: 
-      strip-prefix: false  
       
   
 eureka:
