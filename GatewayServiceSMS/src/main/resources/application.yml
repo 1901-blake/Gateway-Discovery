@@ -15,7 +15,7 @@ zuul:
       sensitiveHeaders: 
       strip-prefix: false
     surveys:
-      path: /users/**
+      path: /surveys/**
       serviceId: survey-service
       sensitiveHeaders: 
       strip-prefix: false
