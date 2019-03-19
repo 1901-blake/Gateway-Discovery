@@ -5,6 +5,11 @@ spring:
     
 zuul:
   routes:
+    status: 
+      path: /status/**
+      serviceId: user-service
+      sensitiveHeaders: 
+      strip-prefix: false
     users: 
       path: /users/**
       serviceId: user-service
